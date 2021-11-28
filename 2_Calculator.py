@@ -29,3 +29,29 @@ elif operation == "/":
     div = numbers[0]
     for i in range(1, len(numbers)): div /= numbers[i]
     print(div)
+
+
+
+# num = int(input("Enter Number: "))
+# num2 = int(input("Enter the second Number: "))
+# operand = input("Operand: ")
+
+# if operand == "+":
+#     print(num + num2)
+# elif operand == "-":
+#     print(num - num2)
+# elif operand == "*":
+#     print(num * num2)
+# elif operand == "/":
+#     print((num % num2))
+#     print(type(num / num2))
+
+# inp = input("Enter a number ")
+# lst = list()
+
+# while inp != "":
+#     lst.append(int(inp))
+#     inp = input("Enter a number ")
+
+# print(lst)
+    

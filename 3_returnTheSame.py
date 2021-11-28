@@ -9,3 +9,15 @@ for element in lst1:
         same_list.append(element)
         
 print(same_list)
+
+
+# In class
+
+
+# lst1 = [1, 2, 3, 23, 23,5, 2,3 , 23,3535,46,5,675,5,75,7]
+# lst2 = [21, 2, 3, 233, 234,55, 25,3 , 623,83535,46,5,675,54,75,73]
+# lst = list()
+# for element in [21, 2, 3, 233, 234,55, 25,3 , 623,83535,46,5,675,54,75,73]:
+#     if element in lst1:
+#         lst.append(element)
+# print(lst)
