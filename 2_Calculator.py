@@ -3,8 +3,12 @@ end = input("Enter your number! ")
 numbers = list()
 
 while (end != ""): # Do it while end is not empty
+    # --------- ? ---------- #
     if end == "":
+        print("Here")
         continue
+    # --------- ? ---------- #
+    
     numbers.append(int(end))
     end = input("Enter your number! ")
 else: # While also have else to
