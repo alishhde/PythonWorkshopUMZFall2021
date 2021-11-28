@@ -19,6 +19,3 @@ lst = values.split(",")
 tp = tuple(lst)
 print(lst)
 print(tp)
-
-
-x 
