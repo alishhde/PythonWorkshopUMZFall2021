@@ -2,7 +2,7 @@ para = input("Your Parargaph: ")
 char = input("Enter the character: ")
 counter = 0
 
-for i in para:
-    if i == char:
+for word in para:
+    if word == char:
         counter += 1
-print(f"The {char} happend {counter}-Times")
+print(f"\t{char.upper()} happend {counter}-Times")

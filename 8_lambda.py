@@ -2,5 +2,5 @@
 def w(n):
     return lambda x : x + n
 
-var = w(10) # This equals to lambda x : x + 10
+var = w(3)      # This equals to lambda x : x + 3
 print(var(3))
