@@ -6,7 +6,6 @@ def draw_poly(p, num, size):
     for i in range(num):
         p.fd(size)
         p.lt(angle)
-        
 
 
 import turtle

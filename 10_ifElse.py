@@ -2,7 +2,7 @@
 
 
 
-grade = input('Please enter the grade: ')
+grade = int(input('Please enter the grade: '))
 
 if grade >= 75:
     print("First")
@@ -24,3 +24,11 @@ elif grade < 45 and grade >= 40:
 
 elif grade < 40:
     print("F3")
+    
+    
+    
+    
+    
+    
+
+
